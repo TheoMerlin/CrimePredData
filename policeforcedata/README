@@ -1,1 +1,3 @@
-Download policeforcedata and import it into the script folder of visual studio
+Download both police force data files
+Add the contents of police-force-boundaries-two where specified in police-force-boundaries
+Import police-force-boundaries into the script folder of visual studio
