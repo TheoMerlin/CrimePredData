@@ -1,0 +1,283 @@
+﻿html, body {
+    height: 100%;  
+}
+
+.body-content {
+    height: 100%;
+    padding: 0 !important;
+}
+
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+#map-canvas {
+    height: 100%;
+    width: 100%;
+}
+
+.body-content {    
+    max-width: 100% !important;
+    margin: 0 !important;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;  
+}
+
+.nav > li > a {
+    -webkit-transition: box-shadow 0.2s; /* Safari */
+    transition: box-shadow 0.2s;
+}
+
+.nav > li > a:hover {
+    background-color: transparent;
+    border-color: transparent;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navbar-right > li > a:hover {
+    box-shadow: none;
+}
+
+.cust-nav-li {
+    display: table !important;
+    align-content: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 1px;
+    margin: 5px;
+    width: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cust-nav-li > a {
+    line-height: 8px !important;
+}
+
+.nav-t {
+	display: table !important;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+
+.navbar-right {
+    position: fixed;
+    right: 0;
+    margin-right: 50px !important;
+}       
+
+.navbar.navbar-fixed-top { 
+    margin-top: 15px;
+    margin-right: 45px;
+}
+
+.navbar-brand {
+    color: white;
+    font-weight: bold;
+    font-size: 28px;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+ul#horizontal-list {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+}
+
+ul#horizontal-list li {
+	display: inline;
+}
+
+a {
+    color: black;
+}
+
+.map-footer-icons {
+    position: fixed;
+    left: 30px;
+    bottom: 0;
+    margin-bottom: 30px;
+    z-index: 9999;
+}
+
+.map-footer-icons > a > i {
+    background: rgba(255,255,255,0.8);
+    margin-left: 15px;
+    padding: 15px;
+
+    border-radius: 50%;
+    color: darkgrey;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-transition: box-shadow 0.2s;
+    transition: box-shadow 0.2s;
+ }
+
+.map-footer-icons > a > i:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.modal-header {
+    background-color: #1b4080;
+    color: white;
+}
+
+.close{
+    margin-top: -20px !important;
+    color: white;
+}
+
+.modal-body > .row {
+    padding: 5px;
+}
+
+.about-section {
+    position: relative; 
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("leafletmap.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 500px;
+}
+
+.about-header {
+    top: 150px;
+    text-align: center;
+}
+
+.about-header > h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 80px;
+}
+
+ hr {
+    background-color: #1b4080;
+    height: 2px;
+    width: 100px;
+    border: none;
+}
+
+.ppexp-sec { 
+    background-color: #dced05;
+    padding: 50px;
+    font-size: 22px;
+}
+
+.ppexp-h2, .ppben-h2, .cp-h2, .cpfeature-h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.ppben-sec hr {
+     background-color: #dced05;
+}
+
+.ppben-sec {
+    background-color: #1b4080;
+    padding: 50px;
+    font-size: 18px;
+    color: white;
+}
+
+.cp-sec {
+    background-color: #dced05;
+    padding: 50px;
+    font-size: 18px;
+}
+
+.cpfeature-sec hr {
+     background-color: #dced05;
+}
+
+.cpfeature-sec {
+     background-color: #1b4080;
+    padding: 50px;
+    font-size: 18px;
+    color: white;
+}
+
+.cpfeature-sec ul {
+    text-align: left;
+}
+
+.cpfeature-sec .cust-hr {
+    background-color: white;
+    width: 1000px;
+}
+
+
+.info {
+    position: fixed !important;
+    bottom: 30px;
+    right: 0;
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.info h4 {
+    margin: 0 0 5px;
+    color: #777;
+}
+
+#help-modal {
+    z-index: 99999;
+}
+
+#help-modal > .modal-dialog {
+    width: 1300px;
+}
+
+#crime-datepickerfrom, #crime-datepickerto {
+    height: 34px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    padding: 6px 12px;
+    width: 172px;
+    text-align: center;
+}
+
+#filter-modal > .modal-dialog {
+    width: 800px;
+}
+
+.filter-modal, label {
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.filter-info {
+    border-left: 2px solid #1b4080;
+    padding: 20px;
+}
+
+.select2-container { 
+    width: 100% !important;
+}
+
+.filter-top-row {
+    margin-top: 20px;
+}
+
+.crimeContext { border-collapse: collapse; width: 100%; }
+
+th, td { text-align: left; padding: 8px; }
+
+tr:nth-child(even) { background-color: #f2f2f2 }
+
+.legend {
+    margin-bottom: 65px !important;
+    width: 100px;
+
+}
